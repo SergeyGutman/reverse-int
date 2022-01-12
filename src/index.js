@@ -5,5 +5,5 @@ module.exports = function reverse (n) {
   for (let i = lastIndex; i >= 0; i--){
       result += numToStr[i];
   }
-  return result;
+  return Number(result);
 }
